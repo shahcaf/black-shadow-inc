@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Shadow Inc | Elite Roblox Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="glow-text">BLACK SHADOW INC</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#join">Join Us</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="hero-canvas" class="hero-canvas"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <div class="welcome-badge" data-aos="zoom-in" data-aos-delay="50">
+                        <span>Welcome New Players!</span>
+                    </div>
+                    <h1 class="glow-text" data-aos="fade-up">BLACK SHADOW INC</h1>
+                    <p class="tagline" data-aos="fade-up" data-aos-delay="100">Elite Roblox Organization</p>
+                    <div class="welcome-message" data-aos="fade-up" data-aos-delay="150">
+                        <i class="fas fa-star"></i>
+                        <span>Join our growing family of elite players and start your journey today!</span>
+                    </div>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="200">Join the most powerful and strategic Roblox community. Dominate the competition and build your legacy with us.</p>
+                    <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+                        <a href="#join" class="btn primary-btn">
+                            <span>Join Now</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#about" class="btn secondary-btn">
+                            <span>Learn More</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                    <div class="hero-avatar">
+                        <div class="avatar-shine"></div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="5000">0</span>+
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="100">0</span>+
+                            <span class="stat-label">Events</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-scroll">
+                <span>Scroll Down</span>
+                <div class="scroll-icon">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-social">
+            <a href="https://discord.gg/black-shadow-inc-official" target="_blank" class="social-icon">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://www.roblox.com/communities/10357576/Black-Shadow-Inc#!/about" target="_blank" class="social-icon">
+                <i class="fas fa-users"></i>
+            </a>
+        </div>
+        
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">WHY JOIN <span class="highlight">US?</span></h2>
+                <p class="section-subtitle">Experience the power of an elite Roblox community</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Competitive Play</h3>
+                    <p>Join tournaments and compete with the best players in the Roblox universe. Climb the leaderboards and earn exclusive rewards.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Active Community</h3>
+                    <p>Connect with thousands of active members. Make new friends, form teams, and create lasting memories together.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Exclusive Perks</h3>
+                    <p>Get access to member-only items, early game access, and special in-game benefits reserved for Black Shadow Inc members.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Regular Events</h3>
+                    <p>Participate in weekly events, giveaways, and community challenges with amazing prizes and recognition.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe Environment</h3>
+                    <p>Enjoy a well-moderated, respectful community where players of all backgrounds can thrive and have fun.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Rapid Growth</h3>
+                    <p>Be part of one of the fastest-growing Roblox communities with new opportunities and features added regularly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT <span class="highlight">US</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Black Shadow Inc stands as a powerful force within the Roblox universe, bringing together elite players under one banner. We are more than just a group - we are a family united by our passion for excellence and dominance.</p>
+                    <p>Founded on the principles of strength, strategy, and loyalty, we've built a reputation as one of the most respected organizations in the Roblox community. Our members are carefully selected based on skill, dedication, and commitment to our values.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Elite Community</h3>
+                            <p>Join skilled players who share your passion for excellence</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-trophy"></i>
+                            <h3>Proven Success</h3>
+                            <p>Track record of victories and achievements</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>Active Community</h3>
+                            <p>Regular events, giveaways, and activities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="join">
+        <div class="container">
+            <h2 class="section-title">JOIN THE <span class="highlight">SHADOWS</span></h2>
+            <p class="join-text">Ready to become part of something greater? Join Black Shadow Inc today and rise through the ranks of Roblox's elite.</p>
+            <div class="cta-buttons">
+                <a href="https://discord.gg/black-shadow-inc-official" class="btn discord-btn">
+                    <i class="fab fa-discord"></i> Join Our Discord
+                </a>
+                <a href="https://www.roblox.com/communities/10357576/Black-Shadow-Inc#!/about" class="btn roblox-btn">
+                    <i class="fas fa-users"></i> Roblox Group
+                </a>
+            </div>
+        </div>
+        <div class="join-overlay"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>BLACK SHADOW INC</h3>
+                    <p>Elite Roblox Community</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#join">Join Us</a>
+                </div>
+                <div class="social-links">
+                    <h4>Connect</h4>
+                    <a href="https://discord.gg/black-shadow-inc-official" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.roblox.com/communities/10357576/Black-Shadow-Inc#!/about" target="_blank"><i class="fas fa-users"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Black Shadow Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="three-scene.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
